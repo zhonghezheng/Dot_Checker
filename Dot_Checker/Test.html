@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Test </title>
+<style>
+#form{
+  color:white;
+  padding:10;
+  text-align:center;
+  font-family:cursive;
+  margin:50px;
+}
+</style>
+
+<body bgcolor="#c78128">
+  
+<SCRIPT>
+
+function Check()
+{
+    alert("you got 80% right!");
+}
+
+</SCRIPT>
+	
+	
+<table width="100%" height="170" border="0" align="center" bgcolor="#fdba64 " class="groove">
+<tr>
+<td align="center" class="a"><h2 font-family="olivier">Test Set</h2></td></tr>
+
+</table>
+
+
+<FORM  id = "form">
+  
+Set Being Tested:<br>
+<INPUT TYPE="number" NAME="set" min="0" max="count"><br><br>
+  
+Side:<br>
+<INPUT TYPE="radio" NAME="side" VALUE="Side 1"> Side 1<br>
+<INPUT TYPE="radio" NAME="side" VALUE="Side 2"> Side 2<br><br>
+  
+Counts:<br>
+<INPUT TYPE="number" NAME="counts"><br><br>
+  
+Sideline:<br>
+<INPUT TYPE="radio" NAME="sideline" VALUE="frount" > Frount Sideline<br>
+<INPUT TYPE="radio" NAME="sideline" VALUE="frounthash" > Frount Hash<br>
+<INPUT TYPE="radio" NAME="sideline" VALUE="backhash" > Back Hash<br>
+<INPUT TYPE="radio" NAME="sideline" VALUE="back" > Back Sideline<br><br>
+  
+Frount to Back:<br>
+<INPUT TYPE="number" NAME="ftobsteps" max="14"><br>
+  
+<INPUT TYPE="radio" NAME="forb" VALUE="frount" > Frount<br>
+<INPUT TYPE="radio" NAME="forb" VALUE="back" > Back<br><br>
+  
+Yardline:<br>
+<INPUT TYPE="number" NAME="yardline"><br><br>
+ 
+Side to Side:<br>
+<INPUT TYPE="number" NAME="stossteps" max="4"><br>
+  
+<INPUT TYPE="radio" NAME="stos" VALUE="inside" > Inside<br>
+<INPUT TYPE="radio" NAME="stos" VALUE="outside" > Outside<br><br>
+  
+  
+<button onclick="Check()">Done</button>
+  
+</FORM>
+</body>
+</html>
